@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+/* share CSS start */
+#main-container, #notes{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.btn{
+    background-color: #469165;
+    font-weight: 600;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #367a4f;
+}   
+.main-heading{
+    font-size: 48px;
+    font-weight: 800;
+    color: #001931;
+}
+/* navigation css start */
+.nav-content{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+}
+.nav-content .logo img{
+    max-width: 139px;
+    height: auto;
+    cursor: pointer;
+    vertical-align: middle;
+}
+/* nav-menu css start */
+.nav-menu{
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* hero section start */
+#hero{
+    background-image: url(../images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+#hero .hero-content{
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 116px 0 180px;
+    max-width: 770px;
+}
+#hero .hero-content .hero-box{
+    max-width: 229px;
+    padding: 8px 12px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    color: #469165;
+    margin: 0 auto;
+}
+#hero .hero-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    margin: 16px 0;
+    text-transform: capitalize;
+}
+#hero .hero-content h1 span{
+    color: #469165;
+}
+#hero .hero-content p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+#hero .hero-content .hero-btns {
+    gap: 16px;;
+}
+#hero .hero-content .hero-btns .btn2{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+#hero .hero-content .hero-btns .btn2:hover{
+    background-color: #ffffff;
+    color: #469165;
+}
+/* notes css start */
