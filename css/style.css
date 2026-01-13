@@ -196,3 +196,18 @@ body {
     gap: 6px;
     margin-bottom: 16px ;
 }
+/* think section css start */
+#think{
+    padding: 0px 120px 120px 120px;
+}
+#think .think-container{
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+#think .think-container h3{
+    margin-bottom: 16px;
+}
+#think .think-container .btn{
+    margin: 24px 0 16px 0;
+}
