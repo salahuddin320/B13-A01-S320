@@ -211,3 +211,32 @@ body {
 #think .think-container .btn{
     margin: 24px 0 16px 0;
 }
+/* footer css start  */
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px;
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+footer p{
+    margin-top: 30px;
+}
+footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+footer .footer-container .logo-footer img{
+    max-width: 139px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+footer .footer-container .social .social-icons{
+    margin-top: 16px;
+}
+footer .footer-container .social .social-icons a{
+    margin-left: 16px;
+}
