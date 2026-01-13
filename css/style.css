@@ -29,8 +29,9 @@ body {
 }   
 .main-heading{
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 700;
     color: #001931;
+    text-transform: capitalize;
 }
 /* navigation css start */
 .nav-content{
@@ -154,4 +155,44 @@ body {
 .card p{
     font-size: 16px;
     line-height: 20px;
+}
+/* solution section css start  */
+#solution{
+    padding: 120px;
+}
+#solution .solution-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+/* #solution .solution-container .brain{
+    max-width: 540px;
+} */
+#solution .solution-container .brain p{
+    font-size: 16px;
+    line-height: 20px;
+}
+.brain .sub-heading{
+    color: #469165;
+    text-transform: uppercase;
+}
+#solution .solution-container .brain h3{
+    margin: 16px 0;
+}
+.brain .brain-pera{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.brain .brain-list{
+    text-decoration: none;
+    list-style: none;
+    vertical-align: middle;
+}
+.brain .brain-list li{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px ;
 }
