@@ -110,3 +110,48 @@ body {
     color: #469165;
 }
 /* notes css start */
+#notes .notes-container{
+    padding-top: 56px;
+    text-align: center;
+}
+#notes .notes-container p{
+    margin: 16px 0 44px;
+    font-size: 16px;
+    line-height: 20px;
+}
+#notes .notes-container .note-cards{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+#notes .notes-container .note-cards .card{
+    max-width: 322px;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #0000001e;
+}
+.icon-box{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-box img{
+    width: 32px;
+    height: 32px;
+}
+.card h4{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px 0 16px;;
+}
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+}
